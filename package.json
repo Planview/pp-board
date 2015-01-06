@@ -1,0 +1,53 @@
+{
+  "name": "pp-board-mini-app",
+  "version": "0.0.0",
+  "description": "A cross-project view of Projectplace tasks",
+  "main": "public/index.php",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Planview/pp-board.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-csscomb": "^3.0.0",
+    "grunt-jsbeautifier": "^0.2.7",
+    "grunt-jscs": "^1.1.0",
+    "grunt-karma": "^0.9.0",
+    "grunt-newer": "^0.8.0",
+    "grunt-open": "^0.2.3",
+    "grunt-php": "^1.1.1",
+    "grunt-phpunit": "^0.3.6",
+    "grunt-requirejs": "^0.4.2",
+    "grunt-vagrant-commands": "0.0.3",
+    "jasmine-core": "^2.1.3",
+    "jshint-stylish": "^1.0.0",
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.3.4",
+    "karma-ng-scenario": "^0.1.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2",
+    "load-grunt-tasks": "^2.0.0",
+    "requirejs": "^2.1.15",
+    "time-grunt": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "start": "grunt serve"
+  },
+  "author": {
+    "name": "Steve Crockett",
+    "email": "crockett95@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Planview/pp-board/issues"
+  },
+  "homepage": "https://github.com/Planview/pp-board"
+}
