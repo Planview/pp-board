@@ -1,0 +1,29 @@
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+html,
+body {
+  height: 100%;
+}
+
+.container-slim {
+  @include container-fixed();
+
+  @media (min-width: $screen-sm-min) {
+    width: 0.6 * $container-sm;
+  }
+}
+
+.auth-wrapper {
+  margin-top: $grid-gutter-width / 2;
+
+  @media screen and (min-width: $screen-sm-min) {
+    margin-top: 100px;
+  }
+}
+
+.auth-form {
+  padding: 20px;
+  background-color: #eeeeee;
+  border-radius: $border-radius-base;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
